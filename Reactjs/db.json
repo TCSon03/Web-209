@@ -1,0 +1,63 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "title": "San pham C",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+      "price": 100,
+      "image": "../public/best-product-1.jpg"
+    },
+    {
+      "id": 4,
+      "title": "San pham D",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+      "price": 100,
+      "image": "../public/best-product-4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "San pham A",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+      "price": 100,
+      "image": "../public/best-product-2.jpg"
+    },
+    {
+      "id": 6,
+      "title": "San pham B",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+      "price": 100,
+      "image": "../public/best-product-3.jpg"
+    },
+    {
+      "id": 7,
+      "title": "San pham C",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+      "price": 100,
+      "image": "../public/best-product-1.jpg"
+    },
+    {
+      "id": 8,
+      "title": "San pham D",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+      "price": 100,
+      "image": "../public/best-product-4.jpg"
+    }
+  ],
+  "users": [
+    {
+      "email": "congson@gmail.com",
+      "password": "$2a$10$5soFKAlWHFwyC/sfpX68tu6.R/.jPQfkeFiiHDeQi3UwhzkMlO9SG",
+      "id": 1
+    },
+    {
+      "email": "haidang@gmail.com",
+      "password": "$2a$10$822n5cfuQp6DyuRv0I3KIOMUIHnqksyreq1UjlZpG8FJW.ZHu79/m",
+      "id": 2
+    },
+    {
+      "email": "truongcongsson@gmail.com",
+      "password": "$2a$10$nSGCz/RVDmnPBonZStxfYOJ0jAmGKyomjnI1Lj7Iz7nes1euPqemS",
+      "id": 3
+    }
+  ]
+}
