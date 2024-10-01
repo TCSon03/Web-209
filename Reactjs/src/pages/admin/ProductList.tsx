@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { deleteProduct, getAllProduct, Product } from "../../services/Products";
 import toast from "react-hot-toast";
 import { Link } from "react-router-dom";

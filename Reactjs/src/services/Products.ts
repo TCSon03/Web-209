@@ -21,6 +21,6 @@ export const addProduct = (data: Product) => {
   return axios.post("http://localhost:3000/products", data);
 };
 
-// export const editProduct = (data: Product) => {
-//   return axios.put("http://localhost:3000/products", data._id);
-// };
+export const editProduct = (_id: string, data: Product) => {
+  return axios.put("http://localhost:3000/products/" + _id, data);
+};

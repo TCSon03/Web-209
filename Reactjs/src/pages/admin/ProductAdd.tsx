@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { addProduct } from "../../services/Products";
 import toast from "react-hot-toast";
 
-type Inputs = {
+export type Inputs = {
   _id: number;
   title: string;
   price: number;

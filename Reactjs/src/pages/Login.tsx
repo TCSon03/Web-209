@@ -35,7 +35,6 @@ export default function Login() {
             >
               Email
             </label>
-
             <input
               type="email"
               id="email"

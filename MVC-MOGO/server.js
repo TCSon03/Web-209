@@ -58,11 +58,7 @@ mongoose
     app.get("/products/:id", ProductController.apiGetDetail);
     app.delete("/products/:id", ProductController.apiDelete);
     app.post("/products", ProductController.apiSave);
-    app.put(
-      "/products/:id",
-      upload.single("image"),
-      ProductController.apiUpdate
-    );
+    app.put("/products/:id", ProductController.apiUpdate);
 
     app.listen(port, () => {
       console.log(`running in port ${port}`);

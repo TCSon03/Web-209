@@ -41,7 +41,7 @@ export default function Home() {
             key={index}
             className="border-2  hover:shadow-2xl transform hover:scale-105 transition duration-500"
           >
-            <div className="transition duration-700 ease-in-out border-b-2 h-60">
+            <div className="transition duration-700 ease-in-out border-b-2 h-80">
               <img
                 className="transition duration-700 ease-in-out mx-auto w-full h-full object-cover"
                 src={product.image}
